@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.userRegistration.UserRegistration.UserRegistrationApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.005 s <<< FAILURE! - in com.userRegistration.UserRegistration.UserRegistrationApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level.root' to org.springframework.boot.logging.LogLevel
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [org.springframework.boot.logging.LogLevel] for value 'INFO,ERROR'; nested exception is java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.INFO,ERROR
+Caused by: java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.INFO,ERROR
+

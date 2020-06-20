@@ -1,0 +1,12 @@
+com\userRegistration\UserRegistration\UserRegistrationApplication.class
+com\userRegistration\UserRegistration\model\User.class
+com\userRegistration\UserRegistration\config\WebSecurityConfig.class
+com\userRegistration\UserRegistration\repository\RoleRepository.class
+com\userRegistration\UserRegistration\service\UserServiceImpl.class
+com\userRegistration\UserRegistration\validator\UserValidator.class
+com\userRegistration\UserRegistration\repository\UserRepository.class
+com\userRegistration\UserRegistration\service\SecurityService.class
+com\userRegistration\UserRegistration\service\UserService.class
+com\userRegistration\UserRegistration\service\UserDetailsServiceImpl.class
+com\userRegistration\UserRegistration\controller\UserController.class
+com\userRegistration\UserRegistration\model\Role.class
